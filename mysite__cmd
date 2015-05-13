@@ -1,0 +1,8 @@
+django-admin.py startproject mysite
+cd mysite
+
+
+python manage.py -h
+
+python manage.py runserver -h
+
