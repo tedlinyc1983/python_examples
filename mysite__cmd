@@ -12,3 +12,6 @@ python manage.py migrate
 
 // create app trips
 python manage.py startapp trips
+
+python manage.py makemigrations
+python manage.py shell
