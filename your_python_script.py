@@ -29,3 +29,24 @@ No:
 def complex(real, imag = 0.0):
   return magic(r = real, i = imag)
 
+if valid():
+    print 'valid'
+
+if not valid():
+    print 'invalid'
+
+if not users:
+    print 'No users available'
+
+if i % 2 == 0:
+    print 'even number'
+
+
+class Negator(object):
+    def __eq__(self, other):
+        return not other
+
+thing = Negator()
+print thing == None
+
+print thing is None
